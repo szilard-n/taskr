@@ -1,0 +1,27 @@
+[package]
+name = "rust-actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+actix-web = "4.3.1"
+actix-web-httpauth = "0.8.0"
+argonautica = "0.2.0"
+chrono = { version = "0.4.24", features = ["serde"] }
+chrono-tz = "0.8.2"
+dotenv = "0.15.0"
+env_logger = "0.10.0"
+futures = "0.3.28"
+hmac = "0.12.1"
+jwt = "0.16.0"
+lettre = "0.10.4"
+log = "0.4.17"
+mime = "0.3.17"
+mongodb = "2.5.0"
+serde = "1.0.160"
+sha2 = "0.10.6"
+strum = "0.24.1"
+strum_macros = "0.24.3"
+tokio = { version = "1.28.0", features = ["full"] }
+validator = { version = "0.16.0", features = ["derive"] }
